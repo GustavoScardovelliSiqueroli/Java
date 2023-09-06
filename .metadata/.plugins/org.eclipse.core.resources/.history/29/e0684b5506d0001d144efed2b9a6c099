@@ -1,0 +1,5 @@
+package com.livrosgss.factory;
+
+public class ConectionFactory {
+
+}

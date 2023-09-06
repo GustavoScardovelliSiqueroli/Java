@@ -1,0 +1,33 @@
+package com.analitcpro.model;
+
+public class LivroGenero {
+
+	private int id;
+	private int idlivro;
+	private int idgenero;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getIdlivro() {
+		return idlivro;
+	}
+
+	public void setIdlivro(int idlivro) {
+		this.idlivro = idlivro;
+	}
+
+	public int getIdgenero() {
+		return idgenero;
+	}
+
+	public void setIdgenero(int idgenero) {
+		this.idgenero = idgenero;
+	}
+
+}

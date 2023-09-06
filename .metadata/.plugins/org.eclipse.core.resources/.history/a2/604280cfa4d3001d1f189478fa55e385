@@ -1,0 +1,9 @@
+package com.analitcpro.model;
+
+public class LivroGenero {
+
+	private int id;
+	private int idlivro;
+	private int idgenero;
+	
+}

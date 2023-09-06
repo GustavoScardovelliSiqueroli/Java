@@ -1,0 +1,11 @@
+package com.analitcpro.testers;
+
+import com.analitcpro.model.Livro;
+
+public class Main {
+	public static void main(String[] args) {
+		Livro teste = new Livro();
+		String testes = "pinto";
+		System.out.println(String.format("teste %s/n", testes));
+	}
+}

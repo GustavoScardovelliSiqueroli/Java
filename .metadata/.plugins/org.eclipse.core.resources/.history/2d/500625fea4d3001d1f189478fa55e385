@@ -1,0 +1,7 @@
+package com.analitcpro.model;
+
+public class Analises {
+private int id;
+private String analiseTexto;
+private int analiseNota;
+}

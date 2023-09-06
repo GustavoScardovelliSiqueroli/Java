@@ -1,0 +1,8 @@
+package com.analitcpro.model;
+
+public class AutorFilme {
+	private int id;
+	private int idfilme;
+	private int idautor;
+	
+}

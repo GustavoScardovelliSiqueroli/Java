@@ -1,0 +1,5 @@
+package com.livrosgss.model;
+
+public class Livro {
+
+}

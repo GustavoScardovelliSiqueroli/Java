@@ -1,0 +1,5 @@
+package com.analitcpro.factory;
+
+public class ConnectionFactory {
+
+}

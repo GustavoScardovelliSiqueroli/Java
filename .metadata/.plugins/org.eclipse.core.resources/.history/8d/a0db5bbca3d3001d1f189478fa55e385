@@ -1,0 +1,8 @@
+package com.analitcpro.model;
+
+public class AutorLivro {
+
+	private int id;
+	private int idlivro;
+	private int idautor;
+}

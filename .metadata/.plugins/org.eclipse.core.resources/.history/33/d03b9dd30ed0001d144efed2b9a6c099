@@ -1,0 +1,10 @@
+package com.livrosgss.dao;
+
+import com.livrosgss.model.Livro;
+
+public class livrosDAO {
+
+	public void saveLivro(Livro livro) {
+		
+	}
+}

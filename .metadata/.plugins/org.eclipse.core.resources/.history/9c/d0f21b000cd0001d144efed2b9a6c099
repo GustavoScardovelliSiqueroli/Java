@@ -1,0 +1,8 @@
+package com.livrosgss.dao;
+
+public class livros2023DAO {
+
+	public void saveLivro() {
+		
+	}
+}

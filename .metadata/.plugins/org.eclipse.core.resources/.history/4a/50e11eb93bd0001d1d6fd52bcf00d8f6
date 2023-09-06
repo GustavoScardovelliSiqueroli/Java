@@ -1,0 +1,42 @@
+package com.livrosgss.dao;
+
+import java.sql.Connection;
+
+import com.livrosgss.factory.ConnectionFactory;
+import com.livrosgss.model.Livro;
+import com.mysql.jdbc.PreparedStatement;
+
+public class livrosDAO {
+
+	public void saveLivro(Livro livro) {
+
+		String sql = "INSERT INTO livros(titulo, autor) VALUES(? ,?)";
+
+		Connection conn = null;
+		PreparedStatement pstm = null;
+
+		try {
+			conn = ConnectionFactory.createConnectionToMysql();
+			pstm = (PreparedStatement) conn.prepareStatement(sql);
+			pstm.setString(1, livro.getTitulo());
+			pstm.setString(2, livro.getAutor());
+			pstm.execute();
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		} finally {
+
+			try {
+				if (pstm != null) {
+					pstm.close();
+				}
+				if (conn != null) {
+					conn.close();
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

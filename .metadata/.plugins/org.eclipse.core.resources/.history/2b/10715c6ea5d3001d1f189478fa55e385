@@ -1,0 +1,32 @@
+package com.analitcpro.model;
+
+public class FilmeGenero {
+	private int id;
+	private int idfilme;
+	private int idgenero;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getIdfilme() {
+		return idfilme;
+	}
+
+	public void setIdfilme(int idfilme) {
+		this.idfilme = idfilme;
+	}
+
+	public int getIdgenero() {
+		return idgenero;
+	}
+
+	public void setIdgenero(int idgenero) {
+		this.idgenero = idgenero;
+	}
+
+}
