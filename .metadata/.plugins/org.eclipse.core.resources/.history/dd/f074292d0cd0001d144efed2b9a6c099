@@ -1,8 +1,0 @@
-package com.livrosgss.dao;
-
-public class livrosDAO {
-
-	public void saveLivro() {
-		
-	}
-}
